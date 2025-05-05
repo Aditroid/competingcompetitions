@@ -161,7 +161,7 @@ const inter = Inter({
 
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['400', '500', '600'],
+  weight: ['500'],
   variable: '--font-poppins',
   display: 'swap',
 });
@@ -172,10 +172,9 @@ export default function Footer() {
       <div>
           <h3 className={`${dmSerif.className} text-white font-semibold text-xl mb-3`}>Disclaimer</h3>
           <p className={`text-sm text-gray-400 leading-relaxed ${inter.className}`}>
-            The content on this site is for informational purposes only and not legal advice. Author's views are personal and do not reflect the platform's stance. We advise consulting professionals before acting on any content.
+            The content on this site is for informational purposes only and not legal advice. Author&#39;s views are personal and do not reflect the platform&#39;s stance. We advise consulting professionals before acting on any content.
           </p>
         </div>
-        {/* Newsletter Section */}
         <div className="space-y-3">
           <h2 className={`${dmSerif.className} text-xl font-semibold text-white`}>Newsletter</h2>
           <p className={`text-sm text-gray-400 ${poppins.className}`}>
