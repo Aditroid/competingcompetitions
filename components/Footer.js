@@ -172,7 +172,7 @@ export default function Footer() {
       <div>
           <h3 className={`${dmSerif.className} text-white font-semibold text-xl mb-3`}>Disclaimer</h3>
           <p className={`text-sm text-gray-400 leading-relaxed ${inter.className}`}>
-            The content on this site is for informational purposes only and not legal advice. Author's views are personal and do not reflect the platform’s stance. We advise consulting professionals before acting on any content.
+            The content on this site is for informational purposes only and not legal advice. Author's views are personal and do not reflect the platform's stance. We advise consulting professionals before acting on any content.
           </p>
         </div>
         {/* Newsletter Section */}
